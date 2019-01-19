@@ -1,4 +1,4 @@
-FROM 3.6.8-alpine
+FROM python:3.6.8-alpine
 
 RUN apk update \
     && apk add --no-cache --virtual .pynacl_deps build-base python3-dev libffi-dev \
