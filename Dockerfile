@@ -14,4 +14,5 @@ RUN apk update \
     && pip install pandas \
     && pip install pusher \
     && pip install pyOpenSSL \
-    && pip install pyrebase
+    && pip install pyrebase \
+    && pip install python-firebase
