@@ -13,4 +13,5 @@ RUN apk update \
     && pip install DhelmGfeedClient \
     && pip install pandas \
     && pip install pusher \
-    && pip install pyOpenSSL
+    && pip install pyOpenSSL \
+    && pip install pyrebase
